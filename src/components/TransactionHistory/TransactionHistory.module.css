@@ -1,18 +1,22 @@
-table {
+.transTable {
     border-collapse: collapse;
     width: 100%;
 }
-table thead{
+.transTable .transThead{
     background-color: black;
+    color: #fff;
 }
-table,
-th,
-td {
+.transTable,
+.transTh,
+.transTd {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
-tr:nth-child(even){
+.transTd{
+    color: black;
+}
+.transTr:nth-child(even){
 background-color: gray;
 }
 
